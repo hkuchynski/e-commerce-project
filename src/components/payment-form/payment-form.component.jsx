@@ -81,7 +81,7 @@ const PaymentForm = () => {
                 </FormContainer>
             </PaymentFormContainer>
             <TestCardContainer>To simulate a successful payment for a specific card brand, please follow this link to get test cards credentials: 
-            <a style={{"color":"violet"}} href="https://docs.stripe.com/testing#cards"> docs.stripe.com</a>
+            <a style={{"color":"violet"}} href="https://docs.stripe.com/testing#cards" target="_blank"> docs.stripe.com</a>
             </TestCardContainer>
         </div>
     );
