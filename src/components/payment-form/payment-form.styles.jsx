@@ -19,3 +19,14 @@ export const PaymentButton = styled(Button)`
     margin-left: auto;
     margin-top: 30px;
 `;
+
+// export const TestCardContainer = styled.div`
+//     color: red;
+// `;
+
+export const TestCardContainer = styled.div`
+    color: red;
+    width: 75%;
+    margin: 50px auto;
+
+`;

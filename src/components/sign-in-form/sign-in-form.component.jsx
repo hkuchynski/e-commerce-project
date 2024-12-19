@@ -31,8 +31,9 @@ const SignInForm = () => {
         event.preventDefault();
 
         try {
-            const { user } = await signInAuthUserWithEmailAndPassword(email, password);
+            await signInAuthUserWithEmailAndPassword(email, password);
             resetFormFields();
+            alert('You have successfully signed in');
         } catch(error) {
             if(error.code === 'auth/invalid-credential') {
                 alert('Invalid credentials');
