@@ -1,6 +1,6 @@
-## E-commerce clothing store app
+## eCommerce clothing store app
 
-E-commerce clothing store app built with React, Redux, Firebase & Stripe API. Design credit to Andrei Neagoie and Yihua Zhang.
+eCommerce clothing store app built with React, Redux, Firebase & Stripe API. Design credit to Andrei Neagoie and Yihua Zhang.
 
 ### Featuring:
 
